@@ -43,7 +43,6 @@ Workflow-Dokumentation: https://ocr-d.de/en/workflows
 ocrd-tesserocr-recognize -P segmentation_level region -P textequiv_level word -P find_tables true -P model Fraktur_GT4HistOCR -I DEFAULT -O OCR-D-OCR-TESS
 ```
 
-
 #### ppn2ocr
 
 Mit dem Skript `ppn2ocr` aus dem Projekt https://github.com/qurator-spk/ocrd-galley können Sie Werke der Staatsbibliothek "in einem Rutsch" mit voller Auflösung als OCR-D-Workspace herunterladen:
@@ -79,6 +78,8 @@ ocrd process \
 ```sh
 browse-ocrd mets.xml
 ```
+
+![](./img/demo1-browse-ocrd.PNG)
 
 ## Demo 2 - Evaluation von OCR-Ergebnissen
 
@@ -126,4 +127,8 @@ ocrd-dinglehopper -I OCR-D-GT-SEG-LINE,OCR-D-OCR-TESS -O EVAL-DINGLE
 
 ### Browser-Ansicht
 
+![](./img/dingle-html.PNG)
+
 ### Diff-View in browse-ocrd
+
+![](./img/demo2-browse-ocrd.PNG)
