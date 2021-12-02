@@ -24,7 +24,7 @@ ocrd workspace find -k url -k mimetype -k fileGrp
 ### Laden wir uns die Bilder herunter
 
 ```
-ocrd workspace find --fileGrp DEFAULT --download
+ocrd workspace find --file-grp DEFAULT --download
 ```
 
 ### Minimaler OCR-Workflow mit tesseract
