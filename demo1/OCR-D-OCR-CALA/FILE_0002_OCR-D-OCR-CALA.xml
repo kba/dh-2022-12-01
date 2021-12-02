@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0002_OCR-D-OCR-CALA">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.28.0</pc:Creator>
+        <pc:Created>2021-12-02T12:35:34.371171</pc:Created>
+        <pc:LastChange>2021-12-02T12:35:34.371171</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-cis-ocropy-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="ocropy" type="method"/>
+                <pc:Label value="0.5" type="threshold"/>
+                <pc:Label value="False" type="grayscale"/>
+                <pc:Label value="0.0" type="maxskew"/>
+                <pc:Label value="0" type="noise_maxsize"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="page" type="level-of-operation"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-binarize"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/cropping" value="ocrd-anybaseocr-crop">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="50.0" type="rulerRatioMax"/>
+                <pc:Label value="3.0" type="rulerRatioMin"/>
+                <pc:Label value="0.3" type="rulerAreaMax"/>
+                <pc:Label value="0.01" type="rulerAreaMin"/>
+                <pc:Label value="0.95" type="rulerWidthMax"/>
+                <pc:Label value="0.05" type="columnAreaMin"/>
+                <pc:Label value="0.04" type="columnSepWidthMax"/>
+                <pc:Label value="0.25" type="marginTop"/>
+                <pc:Label value="0.75" type="marginBottom"/>
+                <pc:Label value="0.3" type="marginLeft"/>
+                <pc:Label value="0.7" type="marginRight"/>
+                <pc:Label value="10" type="padding"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.6.0" type="ocrd-anybaseocr-crop"/>
+                <pc:Label value="2.23.3" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-skimage-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="li" type="method"/>
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="301" type="window_size"/>
+                <pc:Label value="0.34" type="k"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.7" type="ocrd-skimage-binarize"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-skimage-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.0" type="protect"/>
+                <pc:Label value="1.0" type="maxsize"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.7" type="ocrd-skimage-denoise"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-tesserocr-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="operation_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="1.5" type="min_orientation_confidence"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.13.6" type="ocrd-tesserocr-deskew"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-cis-ocropy-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="20" type="maxcolseps"/>
+                <pc:Label value="20" type="maxseps"/>
+                <pc:Label value="10" type="maximages"/>
+                <pc:Label value="4" type="csminheight"/>
+                <pc:Label value="10" type="hlminwidth"/>
+                <pc:Label value="0.01" type="gap_height"/>
+                <pc:Label value="1.5" type="gap_width"/>
+                <pc:Label value="True" type="overwrite_order"/>
+                <pc:Label value="True" type="overwrite_separators"/>
+                <pc:Label value="True" type="overwrite_regions"/>
+                <pc:Label value="True" type="overwrite_lines"/>
+                <pc:Label value="2.4" type="spread"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-segment"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/dewarping" value="ocrd-cis-ocropy-dewarp">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4.0" type="range"/>
+                <pc:Label value="1.0" type="smoothness"/>
+                <pc:Label value="0.05" type="max_neighbour"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-dewarp"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="qurator-gt4histocr-1.0" type="checkpoint_dir"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+                <pc:Label value="/home/kba/.local/share/ocrd-resources/ocrd-calamari-recognize/qurator-gt4histocr-1.0/*.ckpt.json" type="checkpoint"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0002_DEFAULT.jpg" imageWidth="800" imageHeight="1138" orientation="0.236884940959499" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+        <pc:AlternativeImage filename="OCR-D-BIN/FILE_0002_OCR-D-BIN.IMG-BIN.png" comments=",binarized"/>
+        <pc:AlternativeImage filename="OCR-D-CROP/FILE_0002_OCR-D-CROP.IMG-CROP.png" comments=",binarized,cropped"/>
+        <pc:AlternativeImage filename="OCR-D-BIN2/FILE_0002_OCR-D-BIN2.IMG-BIN.png" comments=",cropped,binarized"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE/FILE_0002_OCR-D-BIN-DENOISE.IMG-DEN.png" comments=",cropped,binarized,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE-DESKEW/FILE_0002_OCR-D-BIN-DENOISE-DESKEW.IMG-DESKEW.png" comments=",cropped,binarized,despeckled,deskewed,recropped"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/FILE_0002_OCR-D-SEG.IMG-CLIP.png" comments=",cropped,binarized,despeckled,deskewed,recropped,clipped"/>
+        <pc:Border>
+            <pc:Coords points="66,34 69,1109 776,1102 771,25"/>
+        </pc:Border>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0001"/>
+                <pc:RegionRefIndexed index="1" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0002"/>
+                <pc:RegionRefIndexed index="2" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003"/>
+                <pc:RegionRefIndexed index="3" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0004"/>
+                <pc:RegionRefIndexed index="4" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005"/>
+                <pc:RegionRefIndexed index="5" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006"/>
+                <pc:RegionRefIndexed index="6" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007"/>
+                <pc:RegionRefIndexed index="7" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008"/>
+                <pc:RegionRefIndexed index="8" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0009"/>
+                <pc:RegionRefIndexed index="9" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010"/>
+                <pc:RegionRefIndexed index="10" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011"/>
+                <pc:RegionRefIndexed index="11" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0012"/>
+                <pc:RegionRefIndexed index="12" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0013"/>
+                <pc:RegionRefIndexed index="13" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0014"/>
+                <pc:RegionRefIndexed index="14" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015"/>
+                <pc:RegionRefIndexed index="15" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016"/>
+                <pc:RegionRefIndexed index="16" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017"/>
+                <pc:RegionRefIndexed index="17" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0018"/>
+                <pc:RegionRefIndexed index="18" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019"/>
+                <pc:RegionRefIndexed index="19" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020"/>
+                <pc:RegionRefIndexed index="20" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021"/>
+                <pc:RegionRefIndexed index="21" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022"/>
+                <pc:RegionRefIndexed index="22" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023"/>
+                <pc:RegionRefIndexed index="23" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0024"/>
+                <pc:RegionRefIndexed index="24" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025"/>
+                <pc:RegionRefIndexed index="25" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0026"/>
+                <pc:RegionRefIndexed index="26" regionRef="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0027"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0001">
+            <pc:Coords points="251,31 250,34 257,52 275,57 284,54 287,35 285,31"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0001_line0001">
+                <pc:Coords points="250,33 257,52 275,56 284,54 284,48 280,43 286,33 285,31 251,31"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0002">
+            <pc:Coords points="348,30 347,31 351,49 368,49 406,37 405,30"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0002_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0002_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0002_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="348,30 347,31 351,49 367,49 406,37 404,30"/>
+                <pc:TextEquiv conf="0.549097239971161">
+                    <pc:Unicode>-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>-</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003">
+            <pc:Coords points="264,122 267,142 276,145 296,143 295,133 274,122"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="264,122 266,132 274,130 274,122"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0003_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="269,132 269,142 270,143 296,143 295,133"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0004">
+            <pc:Coords points="351,114 336,116 334,119 334,126 342,135 373,135 377,132 378,119 373,114"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0004_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0004_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0004_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="355,114 335,117 335,118 334,126 342,135 373,135 377,132 378,119 373,114"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005">
+            <pc:Coords points="348,142 340,151 340,160 347,174 375,181 382,181 389,174 389,161 380,152 363,142"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="348,142 340,151 341,160 359,160 367,153 364,143"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0005_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="368,153 359,161 344,161 344,169 347,174 370,175 377,181 382,181 389,174 389,161 381,153"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006">
+            <pc:Coords points="451,29 418,75 414,89 414,122 417,136 460,156 606,173 633,163 727,107 724,87 697,25"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="483,28 483,34 493,32 502,41 509,42 539,39 545,31 543,27"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0002">
+                <pc:Coords points="450,30 455,36 454,48 482,50 480,64 490,66 496,64 500,56 520,54 518,43 502,42 493,33 485,36 482,34 482,28 451,29"/>
+                <pc:TextEquiv conf="0.362522482872009">
+                    <pc:Unicode>5-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="631,26 631,35 605,35 594,28 576,27 565,37 565,49 582,58 598,54 614,61 657,63 662,58 663,48 672,48 684,39 695,38 699,32 697,25"/>
+                <pc:TextEquiv conf="0.425493061542511">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="500,57 496,65 482,65 473,78 466,73 449,70 420,70 419,73 417,81 419,86 431,87 447,83 488,82 494,86 512,84 520,76 520,59"/>
+                <pc:TextEquiv conf="0.848757743835449">
+                    <pc:Unicode>2</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="594,55 584,57 582,63 569,73 569,79 573,83 590,79 603,87 634,85 643,75 643,65 638,62 614,62"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="479,83 447,84 437,88 423,88 422,91 416,89 414,97 440,95 459,104 484,102 494,97 558,97 557,90 548,90 536,95 494,95 493,86"/>
+                <pc:TextEquiv conf="0.732176840305328">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0007.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="652,74 644,75 634,86 603,88 594,81 584,80 574,84 567,100 508,98 507,102 492,100 459,105 447,98 437,101 429,98 415,97 414,120 418,123 434,121 439,124 560,124 558,117 581,116 587,122 595,120 601,121 605,126 615,124 621,127 647,125 649,110 677,111 686,108 688,111 713,112 727,107 724,88 711,84 700,74"/>
+                <pc:TextEquiv conf="0.565535426139832">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0006_line0008.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="579,117 573,119 573,125 419,124 416,132 417,136 426,139 447,133 457,154 458,155 476,155 480,158 484,159 489,156 498,156 510,162 519,163 547,162 554,165 562,159 589,159 595,168 605,173 605,173 611,168 627,165 628,165 627,157 644,140 648,128 620,128 615,125 605,127 601,122 587,123"/>
+                <pc:TextEquiv conf="0.310040354728699">
+                    <pc:Unicode>t,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+5-
+
+2
+
+
+
+t,</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007">
+            <pc:Coords points="175,182 167,186 144,210 144,217 156,254 179,275 256,257 279,249 280,228 264,184"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="176,182 173,186 166,187 166,187 166,196 186,213 209,213 216,216 228,216 232,213 232,208 224,200 214,201 197,196 194,187 188,182"/>
+                <pc:TextEquiv conf="0.667795062065125">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="251,184 251,191 258,198 265,191 265,186 264,184"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="169,202 151,205 144,210 144,216 170,217 185,213 179,206"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="185,214 181,217 160,216 150,219 157,232 164,234 171,231 177,239 207,244 216,253 270,252 277,249 279,247 279,228 275,224 219,223 213,215"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="168,232 156,240 157,255 157,255 174,258 204,256 212,259 213,252 207,245 179,241"/>
+                <pc:TextEquiv conf="0.834303081035614">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0007_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="183,258 176,259 179,275 185,273 190,268 202,268 210,261 204,257"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>.
+
+
+
+.
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008">
+            <pc:Coords points="210,261 161,279 153,291 164,365 168,373 174,377 246,393 262,393 295,384 299,378 311,331 311,313 243,261"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="211,261 202,269 190,269 187,274 193,281 248,281 248,266 245,263 244,261"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="179,276 160,279 159,281 154,297 154,301 163,301 176,291 177,283 190,282 191,283 189,289 193,297 203,292 218,299 248,296 248,282 204,285"/>
+                <pc:TextEquiv conf="0.40029165148735">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="203,293 204,296 195,298 193,306 189,309 189,317 195,323 187,328 178,328 171,341 220,340 231,334 306,335 311,330 311,314 306,309 305,309 275,309 273,301 269,298 218,300"/>
+                <pc:TextEquiv conf="0.237917602062225">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="231,335 220,341 166,342 162,345 162,349 169,357 165,359 165,367 166,370 169,374 172,375 201,375 206,371 207,364 218,355 242,353 257,355 263,361 298,362 301,358 301,342 296,337"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="232,354 218,356 211,364 212,370 216,373 226,373 233,367 254,366 262,362 257,356"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0008_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="263,362 254,367 231,369 226,374 227,384 231,387 242,387 248,393 260,393 268,386 287,386 290,385 296,382 297,381 297,363"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+
+.
+
+
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0009">
+            <pc:Coords points="344,175 334,185 341,196 369,196 377,190 377,182 371,176"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0009_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0009_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0009_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="344,175 343,175 336,183 334,185 341,196 367,196 371,193 376,190 377,182 372,177 346,175"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010">
+            <pc:Coords points="325,343 306,344 302,348 300,389 307,393 369,391 373,383 375,347 371,343"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="342,343 305,345 302,349 302,366 370,369 373,367 374,347 372,344"/>
+                <pc:TextEquiv conf="0.698789000511169">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0010_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="302,368 300,369 300,388 302,390 305,392 338,392 367,391 370,389 372,385 372,371 369,369"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011">
+            <pc:Coords points="366,198 302,218 298,222 299,242 304,246 315,247 363,247 401,241 407,239 426,220 426,202 422,198"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="367,198 362,203 362,212 367,217 405,220 410,225 421,225 426,220 426,203 421,198"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0011_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="346,213 339,218 301,219 298,222 299,242 304,246 360,247 366,240 404,240 405,239 410,235 410,226 405,221 371,219 362,213"/>
+                <pc:TextEquiv conf="0.708232879638672">
+                    <pc:Unicode>1</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+1</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0012">
+            <pc:Coords points="363,248 359,252 360,269 365,274 387,279 406,279 424,276 431,270 430,252 427,249"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0012_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0012_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0012_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="363,248 359,252 360,269 365,274 404,279 409,275 428,272 430,270 430,253 426,249 395,248"/>
+                <pc:TextEquiv conf="0.916573643684387">
+                    <pc:Unicode>2</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>2</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0013">
+            <pc:Coords points="385,318 381,322 381,339 386,344 444,343 449,338 449,328 433,317"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0013_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0013_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0013_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="386,318 381,323 381,339 386,344 444,343 449,338 449,328 432,317 409,317"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0014">
+            <pc:Coords points="482,163 472,170 472,179 482,178 486,170"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0014_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0014_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0014_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="482,163 472,170 472,179 481,178 481,173 486,170"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015">
+            <pc:Coords points="478,223 466,230 460,239 455,275 455,296 463,301 512,291 519,284 535,250 535,230 531,226"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="480,223 477,223 470,227 463,233 461,237 461,248 467,255 473,252 477,255 490,253 492,250 504,250 509,255 524,255 534,251 535,231 532,227 488,223"/>
+                <pc:TextEquiv conf="0.627275466918945">
+                    <pc:Unicode>e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="492,251 490,254 479,256 474,253 467,256 464,253 460,256 459,265 462,268 501,268 510,263 509,256 504,251"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0015_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="511,263 501,269 461,269 455,278 455,296 463,301 479,297 496,275 502,289 512,291 519,284 519,264"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>e
+
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016">
+            <pc:Coords points="172,394 158,403 158,414 178,540 258,880 263,885 275,885 364,841 507,749 525,683 551,427 523,420"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="172,394 158,403 158,411 174,415 188,409 191,405 190,396 188,395"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="200,398 184,414 175,415 170,421 170,429 184,432 188,428 219,428 224,423 272,423 272,406 267,401 265,400"/>
+                <pc:TextEquiv conf="0.823630809783936">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="505,421 494,422 488,428 274,429 272,424 224,424 219,429 188,429 177,433 171,436 171,447 189,452 193,452 193,449 199,446 205,450 229,449 233,453 242,453 251,447 271,444 388,444 394,454 399,454 407,448 413,448 420,454 452,453 456,450 458,442 488,442 494,448 501,448 511,437 550,435 551,427 534,426 529,421 527,421"/>
+                <pc:TextEquiv conf="0.510816097259521">
+                    <pc:Unicode>*</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="196,447 193,453 184,453 184,461 177,466 179,473 176,476 176,486 185,486 185,483 194,475 194,471 204,471 206,479 214,488 213,500 216,502 257,498 268,494 284,500 332,500 337,495 337,489 344,485 434,484 443,486 450,492 483,492 491,490 494,486 494,469 489,464 464,464 457,455 425,456 413,449 389,457 346,457 340,451 233,454 229,450 205,451"/>
+                <pc:TextEquiv conf="0.37822026014328">
+                    <pc:Unicode>E</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="344,486 340,489 341,505 350,515 418,515 427,513 432,507 446,507 450,502 450,493 445,488 434,485"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="188,515 188,526 201,524 199,514"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0007.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="265,496 218,503 218,519 239,520 247,524 337,524 337,508 331,503 287,503"/>
+                <pc:TextEquiv conf="0.769600033760071">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0008.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="423,514 379,517 371,524 348,525 247,525 239,521 213,520 204,515 199,526 188,527 186,520 184,526 178,528 178,538 196,541 208,555 217,560 223,556 229,560 258,560 263,559 269,550 274,549 346,549 354,551 362,565 368,561 393,561 407,562 413,567 434,566 437,562 438,543 464,543 472,539 473,520 470,516"/>
+                <pc:TextEquiv conf="0.99172443151474">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0009">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0009.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="274,550 269,551 263,560 258,561 229,561 225,557 215,560 210,566 207,580 212,583 220,580 227,586 234,586 242,580 305,577 333,579 335,585 344,587 374,584 384,579 401,590 437,587 491,594 495,593 499,583 498,569 494,566 457,566 445,569 413,568 407,563 393,562 368,562 362,566 354,552"/>
+                <pc:TextEquiv conf="0.672115743160248">
+                    <pc:Unicode>*</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0010">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0010.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="278,578 242,581 234,587 227,587 224,582 216,581 208,591 208,600 210,605 222,605 229,595 248,593 254,600 255,613 312,611 316,606 327,604 340,611 349,611 372,603 396,602 405,606 418,606 436,618 464,618 492,612 492,595 488,593 466,593 437,588 401,591 384,580 374,585 344,588 334,585 303,586 301,578"/>
+                <pc:TextEquiv conf="0.731790721416473">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0011">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0011.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="396,603 372,604 332,617 321,617 313,612 279,613 275,618 277,626 270,641 273,644 294,644 298,641 308,641 317,635 323,638 373,628 383,639 454,635 482,643 497,628 494,613 464,619 436,619 425,615 418,607 405,607"/>
+                <pc:TextEquiv conf="0.317707061767578">
+                    <pc:Unicode>,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0012">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0012.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="281,644 270,646 268,655 296,660 298,655 295,645"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0013">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0013.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="373,629 323,639 317,636 308,642 298,642 295,644 299,655 297,661 303,666 318,664 333,655 349,655 354,649 368,651 373,656 385,657 402,657 410,650 423,650 430,659 440,664 451,662 459,666 472,667 477,663 478,644 469,642 464,637 383,640"/>
+                <pc:TextEquiv conf="0.582757592201233">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0014">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0014.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="354,650 349,656 333,656 322,664 310,666 308,680 334,681 344,676 362,678 374,672 377,665 386,660 384,657 373,657 362,650"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0015">
+                <pc:Coords points="449,663 444,665 446,672 442,675 443,688 434,692 434,700 438,703 482,705 494,698 511,697 523,688 524,686 524,680 490,681 471,667 459,667"/>
+                <pc:TextEquiv conf="0.533381521701813">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0016">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0016.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="344,677 334,682 288,685 283,688 282,701 292,704 311,702 319,698 342,700 358,693 362,688 362,679"/>
+                <pc:TextEquiv conf="0.499599605798721">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0017">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0017.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="363,688 358,694 342,701 319,699 311,703 289,705 289,711 302,721 350,718 366,724 377,732 401,735 425,732 430,736 440,736 455,729 467,731 469,726 495,724 502,716 512,716 518,705 519,702 519,696 515,694 511,698 485,702 482,706 441,703 436,715 403,719 389,716 379,706 382,703 381,694"/>
+                <pc:TextEquiv conf="0.371050894260406">
+                    <pc:Unicode>--</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0018">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0018.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="336,719 313,721 316,727 327,733 317,742 306,744 307,755 293,756 284,751 280,742 276,741 265,751 261,751 261,760 270,760 277,769 283,770 294,770 303,766 319,767 322,764 330,768 331,776 353,777 359,770 367,769 367,759 375,752 382,761 389,762 392,761 394,754 407,753 409,746 413,743 427,743 433,750 444,754 455,768 466,768 480,755 507,749 505,736 490,734 481,727 471,727 467,732 455,730 440,737 430,737 425,733 405,736 377,733 362,723 350,719"/>
+                <pc:TextEquiv conf="0.388695478439331">
+                    <pc:Unicode>-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0019">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0019.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="322,765 319,768 303,767 294,771 276,770 265,775 265,783 281,783 286,794 301,797 304,802 343,800 357,783 352,778 331,777 329,768"/>
+                <pc:TextEquiv conf="0.391288369894028">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0020">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0020.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="328,800 311,801 308,807 302,808 300,825 320,829 332,829 337,825 355,830 365,827 363,811 349,809 340,800"/>
+                <pc:TextEquiv conf="0.594612240791321">
+                    <pc:Unicode>e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0021">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0021.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="300,826 291,830 287,837 270,834 270,843 285,846 289,850 298,850 301,843 321,832 317,828"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0022">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0022.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="345,830 350,842 362,842 362,842 361,830"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0023">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0023.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="280,847 272,856 256,856 256,864 263,866 272,861 280,863 288,851 285,847"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0024">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0016_line0024.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="272,862 264,866 259,873 259,881 261,883 273,885 280,882 280,872"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+.
+*
+E
+
+
+
+
+*
+
+,
+
+
+
+
+
+--
+-
+.
+e
+
+
+
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017">
+            <pc:Coords points="587,164 523,180 519,184 520,203 532,207 587,210 601,208 624,193 622,183"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="588,164 578,172 576,181 571,186 548,186 542,180 522,181 519,184 520,203 529,206 538,206 550,194 593,194 602,195 606,199 624,193 622,183 616,180 609,176 601,174 592,167"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0017_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="590,195 574,197 572,199 579,209 582,209 601,208 605,205 602,196"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0018">
+            <pc:Coords points="643,187 643,196 654,199 662,197 660,187"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0018_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0018_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0018_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="643,187 643,196 655,198 662,197 660,187"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019">
+            <pc:Coords points="602,206 581,210 519,266 501,341 501,361 517,388 551,388 599,381 657,358 704,265 703,257 696,251"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="603,206 601,209 581,210 581,222 614,221 614,212"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="581,223 577,234 588,236 594,241 620,244 632,239 632,230 612,230 607,224"/>
+                <pc:TextEquiv conf="0.341011762619019">
+                    <pc:Unicode>r</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="577,236 573,240 573,251 576,256 584,259 607,259 610,244"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0004">
+                <pc:Coords points="644,236 636,243 623,242 620,245 612,245 607,260 584,260 574,256 567,261 557,256 548,261 545,269 558,273 573,272 577,277 625,273 628,276 639,277 641,286 667,285 666,275 671,272 697,273 702,269 702,269 703,258 697,252 675,256 662,250 665,237"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="520,265 520,284 524,285 563,287 567,284 584,284 595,290 632,290 640,287 639,278 628,277 625,274 613,273 600,278 569,278 567,273 549,273 538,264 521,264"/>
+                <pc:TextEquiv conf="0.958213448524475">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="519,285 513,291 512,295 512,302 517,307 545,307 569,300 570,304 579,310 593,308 598,313 603,308 609,308 613,313 627,315 634,321 646,321 653,317 653,312 648,306 653,301 672,299 672,287 668,286 646,286 632,291 595,291 581,285 574,291 566,291 562,287"/>
+                <pc:TextEquiv conf="0.630821824073792">
+                    <pc:Unicode>t.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0007">
+                <pc:Coords points="572,308 565,321 552,325 551,330 541,325 513,326 510,337 501,343 502,363 502,363 508,368 536,364 546,367 550,364 566,366 582,363 584,352 637,353 647,354 650,359 654,359 655,359 660,353 661,350 660,341 647,334 645,321 634,322 627,316 613,314 609,309 603,309 597,314 593,309 579,311"/>
+                <pc:TextEquiv conf="0.803011536598206">
+                    <pc:Unicode>,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0019_line0008.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="584,353 584,362 580,365 518,367 514,369 514,383 516,387 520,388 546,388 559,387 569,385 575,381 601,380 602,380 607,375 607,370 621,361 620,355 615,353"/>
+                <pc:TextEquiv conf="0.797411382198334">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+r
+
+
+
+t.
+,
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020">
+            <pc:Coords points="579,381 519,387 511,391 511,412 536,528 542,533 656,531 670,520 670,510 652,456 638,427 604,383"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="581,381 572,383 568,387 530,390 516,388 512,390 511,392 511,410 516,415 529,416 536,410 554,409 557,406 580,408 587,403 589,397 608,394 608,388 605,384 603,382"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="557,407 554,410 536,411 529,420 538,426 557,426 578,420 581,413 580,409"/>
+                <pc:TextEquiv conf="0.491368889808655">
+                    <pc:Unicode>l-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="586,404 581,408 582,413 578,421 552,427 552,434 556,440 584,440 589,448 618,445 629,448 639,444 639,429 639,429 633,427 631,418 631,417 623,422 619,415 597,416 594,408"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="556,441 554,451 564,451 571,441"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="590,448 586,452 586,457 597,464 601,461 618,461 619,466 630,468 652,465 651,456 638,457 629,449 613,453 606,449"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0006.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="601,462 593,471 588,485 609,488 614,492 656,490 656,482 649,478 648,468 630,469 619,467 618,462"/>
+                <pc:TextEquiv conf="0.590837836265564">
+                    <pc:Unicode>A.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0020_line0007.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="587,485 563,495 543,490 536,491 532,495 532,504 536,528 543,533 543,533 556,529 584,512 604,513 611,501 620,502 621,520 637,527 643,526 656,531 660,520 670,520 670,511 664,511 659,507 660,501 654,493 614,493 609,489"/>
+                <pc:TextEquiv conf="0.633499145507812">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+l-
+
+
+
+A.
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021">
+            <pc:Coords points="539,555 531,560 531,571 536,588 547,590 547,563"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="539,555 531,560 531,570 541,575 547,570 547,566 546,562"/>
+                <pc:TextEquiv conf="0.319510668516159">
+                    <pc:Unicode>a</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0021_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="538,576 535,581 536,588 547,590 547,581"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>a
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022">
+            <pc:Coords points="576,551 550,594 552,613 575,635 589,635 659,601 663,596 663,586 654,561"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="576,551 575,561 584,561 584,552"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="551,593 552,602 562,601 561,593"/>
+                <pc:TextEquiv conf="0.577815115451813">
+                    <pc:Unicode>V</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="639,560 577,563 572,578 573,591 569,594 567,602 601,604 613,601 616,595 620,602 625,603 659,601 663,596 663,587 657,577 651,574 654,561"/>
+                <pc:TextEquiv conf="0.63925689458847">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0004.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="562,602 551,604 552,613 567,612 571,623 577,624 585,617 595,617 602,612 602,606 598,604 573,605"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0022_line0005.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="579,623 572,624 570,629 575,635 588,635 589,627"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+V
+.
+
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023">
+            <pc:Coords points="568,694 551,698 548,704 550,717 576,716 591,705 591,697 587,694"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="575,694 573,704 591,705 591,697 587,694"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0023_line0002">
+                <pc:Coords points="560,695 557,699 553,697 551,697 548,704 550,717 577,715 579,713 582,707 572,704 571,695 563,695"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0024">
+            <pc:Coords points="382,884 344,890 327,906 327,915 333,918 353,919 386,917 394,908 394,898 391,884"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0024_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0024_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0024_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="385,884 374,891 344,890 336,898 337,904 327,906 327,915 335,918 386,917 394,908 394,900 390,895 391,884"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025">
+            <pc:Coords points="270,916 246,928 244,949 251,963 272,979 309,980 309,967 283,918"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="270,916 259,921 246,927 246,935 285,935 286,928 283,926 282,917"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0002.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="244,949 266,952 274,958 289,959 292,956 292,947 287,946 282,938 245,936"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0025_line0003.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="250,951 251,963 256,967 262,967 264,972 271,974 272,979 292,977 309,980 309,967 294,964 290,960 274,959 266,953"/>
+                <pc:TextEquiv conf="0.628928482532501">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0026">
+            <pc:Coords points="462,929 456,931 456,943 473,942 474,930"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0026_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0026_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0026_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="462,929 456,931 456,943 473,942 474,930"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0027">
+            <pc:Coords points="339,1085 312,1089 305,1100 310,1106 363,1106 366,1104 358,1085"/>
+            <pc:TextLine id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0027_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/FILE_0002_OCR-D-SEG-LINE-RESEG-DEWARP_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0027_FILE_0002_OCR-D-BIN-DENOISE-DESKEW_region0027_line0001.IMG-DEWARP.png" comments="binarized,despeckled,dewarped"/>
+                <pc:Coords points="342,1085 337,1089 312,1089 305,1100 310,1106 363,1106 366,1104 358,1092 358,1085"/>
+                <pc:TextEquiv conf="0.479691952466965">
+                    <pc:Unicode>*</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>*</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_image0028">
+            <pc:Coords points="69,1105 69,1108 96,1104 111,1106 116,1102 130,1104 139,1100 153,1101 161,1107 174,1108 175,1108 182,1102 193,1098 200,1106 214,1106 219,1103 240,1105 246,1097 260,1102 263,1107 271,1107 277,1107 282,1103 287,1107 297,1107 311,1087 336,1087 342,1081 358,1082 359,1093 370,1106 385,1106 396,1105 412,1094 420,1095 436,1105 447,1103 448,1105 495,1105 497,1102 498,1105 775,1102 771,224 765,219 764,214 770,199 766,194 767,185 764,177 767,168 765,145 768,141 771,142 771,53 767,50 764,25 699,26 700,30 695,38 686,40 680,49 690,60 702,61 707,58 717,67 731,67 730,71 715,75 713,80 724,87 724,93 732,101 732,105 704,115 700,111 689,112 684,109 674,112 669,121 660,113 652,113 646,129 648,133 644,136 641,146 631,151 629,164 611,171 622,183 658,185 665,189 665,195 656,203 645,199 634,188 619,195 610,204 619,214 609,227 631,228 632,240 645,232 652,235 667,234 670,237 662,246 664,250 681,254 687,248 694,248 702,254 707,264 697,271 696,276 683,271 672,271 669,275 669,285 674,285 677,292 672,294 669,303 654,300 650,305 654,318 648,329 653,338 664,344 659,359 651,362 646,357 639,358 634,354 621,355 620,362 607,369 607,378 604,382 609,387 608,396 591,400 601,415 611,412 617,412 621,416 630,411 635,413 633,426 640,427 642,433 639,445 633,450 637,455 648,450 652,456 653,465 649,472 657,483 656,491 663,507 671,509 670,519 659,520 657,533 651,535 640,528 635,528 627,521 621,521 616,504 609,503 602,514 587,513 578,519 568,519 567,526 559,530 559,537 566,544 567,550 583,548 586,560 632,560 643,555 649,559 656,559 654,571 662,575 659,582 661,585 669,586 669,592 664,594 659,602 644,604 623,604 615,597 610,604 604,605 603,611 594,618 581,619 582,623 586,623 590,628 589,635 582,636 587,647 582,652 569,644 568,639 572,633 568,628 566,612 551,616 546,595 539,593 530,583 509,584 504,590 504,601 512,609 500,618 499,628 490,635 491,647 486,654 486,668 496,677 512,674 523,677 531,689 523,688 517,691 523,696 519,706 513,710 511,718 502,716 494,730 504,732 508,736 507,748 500,754 479,758 467,770 454,770 442,761 426,743 420,746 408,745 406,754 393,754 393,761 390,764 383,763 374,752 367,758 370,767 366,770 360,769 357,779 372,785 372,790 362,791 353,784 349,796 352,804 364,809 365,823 369,826 363,830 361,843 351,848 347,838 342,836 343,830 337,825 331,831 315,833 313,837 301,843 303,847 298,853 289,854 279,866 281,883 265,889 259,886 254,877 258,870 251,858 261,849 266,849 271,854 275,846 264,836 275,828 286,835 287,830 298,822 297,814 300,812 297,807 307,804 302,803 293,794 284,796 262,787 260,780 265,771 272,766 269,760 261,761 255,750 264,749 265,743 274,737 281,741 283,748 299,755 304,752 306,741 315,740 323,731 318,730 311,722 300,722 275,696 282,686 305,678 308,671 292,662 283,667 281,661 262,652 268,642 267,637 275,625 273,616 252,615 251,598 247,593 228,595 219,607 207,604 204,591 208,585 203,580 203,574 207,571 208,558 202,556 203,551 195,544 174,537 164,538 162,535 166,524 175,528 181,525 190,508 196,509 199,514 207,510 216,512 218,508 204,494 212,487 203,475 195,473 185,482 184,488 177,492 174,492 169,484 174,475 173,466 182,459 176,449 166,447 165,440 172,433 166,428 170,414 162,414 155,410 156,396 163,391 163,382 160,378 165,354 148,338 156,331 169,337 177,326 188,323 188,319 182,316 182,311 191,305 191,298 187,288 181,285 171,295 166,296 162,303 150,300 147,289 159,278 171,275 175,268 174,260 153,252 154,239 159,234 146,219 139,218 139,209 145,208 150,202 164,199 164,184 173,177 193,180 197,193 213,199 220,199 227,192 234,199 246,198 249,194 249,181 254,177 265,184 265,193 269,199 277,199 287,193 304,197 325,195 331,191 334,180 344,167 338,158 338,145 329,139 318,137 320,128 324,131 332,130 334,115 351,112 354,97 369,99 382,94 389,100 399,99 415,84 420,68 446,66 450,70 462,70 472,76 479,65 479,52 471,50 457,53 449,46 452,37 445,33 445,29 406,30 406,36 400,39 395,39 394,35 386,30 381,39 367,41 369,51 366,54 359,49 353,51 348,47 349,36 345,30 330,31 327,35 322,35 318,31 288,31 285,32 282,44 285,54 291,58 280,62 256,52 249,45 252,39 248,32 66,34"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_image0029">
+            <pc:Coords points="545,27 538,39 527,39 520,44 520,83 530,88 532,93 556,85 561,81 561,76 575,63 575,56 563,48 562,37 565,29 557,27"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_image0030">
+            <pc:Coords points="579,441 567,443 567,447 555,457 533,463 530,475 535,484 562,491 585,481 594,466 591,460 583,455 585,446"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="FILE_0002_OCR-D-BIN-DENOISE-DESKEW_image0031">
+            <pc:Coords points="409,650 406,657 401,660 388,658 379,662 368,679 368,684 376,687 382,694 381,706 385,709 402,716 421,716 434,709 429,695 441,687 437,679 442,670 422,651"/>
+        </pc:ImageRegion>
+    </pc:Page>
+</pc:PcGts>

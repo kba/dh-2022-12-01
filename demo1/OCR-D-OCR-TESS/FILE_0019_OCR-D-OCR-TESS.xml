@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0019_OCR-D-OCR-TESS">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.28.0</pc:Creator>
+        <pc:Created>2021-12-02T12:31:32.179859</pc:Created>
+        <pc:LastChange>2021-12-02T12:31:32.179859</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="Fraktur_GT4HistOCR" type="model"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.13.6 (tesseract 5.0.0-alpha-20201231)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0019_DEFAULT.jpg" imageWidth="800" imageHeight="1156">
+        <pc:AlternativeImage filename="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0." type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="441,916 633,916 633,957 441,957"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:Coords points="441,916 633,916 633,957 441,957"/>
+                <pc:Word id="region0000_line0000_word0000">
+                    <pc:Coords points="441,916 472,916 472,957 441,957"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>—2</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0000_word0001">
+                    <pc:Coords points="509,924 633,924 633,955 509,955"/>
+                    <pc:TextEquiv conf="0.609912528991699">
+                        <pc:Unicode>Entsauorung</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.80495626449585">
+                    <pc:Unicode>—2 Entsauorung</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.80495626449585">
+                <pc:Unicode>—2 Entsauorung</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="196,995 701,995 701,1080 196,1080"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:Coords points="196,995 701,995 701,1080 196,1080"/>
+                <pc:Word id="region0002_line0000_word0000">
+                    <pc:Coords points="701,1080 701,995 196,995 196,1080"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>IIIF</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="1.">
+                    <pc:Unicode>IIIF</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="1.">
+                <pc:Unicode>IIIF</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="198,1081 402,1081 402,1101 198,1101"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:Coords points="198,1081 402,1081 402,1101 198,1101"/>
+                <pc:Word id="region0003_line0000_word0000">
+                    <pc:Coords points="198,1081 402,1081 402,1101 198,1101"/>
+                    <pc:TextEquiv conf="0.069883575439453">
+                        <pc:Unicode>NMæ⸗40006825010</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.069883575439453">
+                    <pc:Unicode>NMæ⸗40006825010</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.069883575439453">
+                <pc:Unicode>NMæ⸗40006825010</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0004" orientation="0.">
+            <pc:Coords points="0,0 800,0 800,1156 0,1156"/>
+        </pc:ImageRegion>
+        <pc:SeparatorRegion id="region0001">
+            <pc:Coords points="666,909 671,909 671,1065 666,1065"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>

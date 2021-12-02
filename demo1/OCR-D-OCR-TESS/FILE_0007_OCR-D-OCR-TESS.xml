@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0007_OCR-D-OCR-TESS">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.28.0</pc:Creator>
+        <pc:Created>2021-12-02T12:30:51.527147</pc:Created>
+        <pc:LastChange>2021-12-02T12:30:51.527147</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="Fraktur_GT4HistOCR" type="model"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.13.6 (tesseract 5.0.0-alpha-20201231)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.28.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0007_DEFAULT.jpg" imageWidth="800" imageHeight="1185">
+        <pc:AlternativeImage filename="OCR-D-OCR-TESS/FILE_0007_OCR-D-OCR-TESS.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0." type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="319,290 495,290 495,333 319,333"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:Coords points="319,290 495,290 495,333 319,333"/>
+                <pc:Word id="region0000_line0000_word0000">
+                    <pc:Coords points="319,291 361,291 361,327 319,327"/>
+                    <pc:TextEquiv conf="0.931769561767578">
+                        <pc:Unicode>des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0000_word0001">
+                    <pc:Coords points="384,290 495,290 495,333 384,333"/>
+                    <pc:TextEquiv conf="0.73861701965332">
+                        <pc:Unicode>Krieges.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.835193290710449">
+                    <pc:Unicode>des Krieges.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.835193290710449">
+                <pc:Unicode>des Krieges.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="388,525 427,525 427,543 388,543"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:Coords points="388,525 427,525 427,543 388,543"/>
+                <pc:Word id="region0001_line0000_word0000">
+                    <pc:Coords points="388,525 427,525 427,543 388,543"/>
+                    <pc:TextEquiv conf="0.927188110351562">
+                        <pc:Unicode>Von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.927188110351562">
+                    <pc:Unicode>Von</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.927188110351562">
+                <pc:Unicode>Von</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="195,557 615,557 615,594 195,594"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:Coords points="195,557 615,557 615,594 195,594"/>
+                <pc:Word id="region0002_line0000_word0000">
+                    <pc:Coords points="195,559 297,559 297,590 195,590"/>
+                    <pc:TextEquiv conf="0.903949432373047">
+                        <pc:Unicode>Eduard</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0001">
+                    <pc:Coords points="313,558 478,558 478,593 313,593"/>
+                    <pc:TextEquiv conf="0.731725540161133">
+                        <pc:Unicode>Loewentkal,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0002">
+                    <pc:Coords points="495,557 537,557 537,587 495,587"/>
+                    <pc:TextEquiv conf="0.917937393188477">
+                        <pc:Unicode>Dr.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0003">
+                    <pc:Coords points="554,557 615,557 615,594 554,594"/>
+                    <pc:TextEquiv conf="0.865343627929688">
+                        <pc:Unicode>phil.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.854738998413086">
+                    <pc:Unicode>Eduard Loewentkal, Dr. phil.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.854738998413086">
+                <pc:Unicode>Eduard Loewentkal, Dr. phil.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="276,932 535,932 535,1042 276,1042"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:Coords points="348,932 469,932 469,963 348,963"/>
+                <pc:Word id="region0003_line0000_word0000">
+                    <pc:Coords points="348,932 469,932 469,963 348,963"/>
+                    <pc:TextEquiv conf="0.407061805725098">
+                        <pc:Unicode>Werlin.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.407061805725098">
+                    <pc:Unicode>Werlin.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0001">
+                <pc:Coords points="276,974 535,974 535,1006 276,1006"/>
+                <pc:Word id="region0003_line0001_word0000">
+                    <pc:Coords points="276,974 535,974 535,1006 276,1006"/>
+                    <pc:TextEquiv conf="0.650393218994141">
+                        <pc:Unicode>Reform-Verlag.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.650393218994141">
+                    <pc:Unicode>Reform-Verlag.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0002">
+                <pc:Coords points="364,1019 446,1019 446,1042 364,1042"/>
+                <pc:Word id="region0003_line0002_word0000">
+                    <pc:Coords points="364,1019 446,1019 446,1042 364,1042"/>
+                    <pc:TextEquiv conf="0.918377838134766">
+                        <pc:Unicode>1896.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.918377838134766">
+                    <pc:Unicode>1896.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.658610954284668">
+                <pc:Unicode>Werlin.
+Reform-Verlag.
+1896.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0004" orientation="0.">
+            <pc:Coords points="0,0 800,0 800,1185 0,1185"/>
+        </pc:ImageRegion>
+    </pc:Page>
+</pc:PcGts>

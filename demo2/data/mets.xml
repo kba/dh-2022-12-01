@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:DC="http://purl.org/dc/elements/1.1/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mets="http://www.loc.gov/METS/" xmlns:DV="http://dfg-viewer.de/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:gt="http://www.ocr-d.de/GT/" xmlns:pre="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 https://www.loc.gov/standards/mods/mods-3-7.xsd http://www.loc.gov/mets/ http://www.loc.gov/standards/mets/version111/mets.xsd http://www.loc.gov/standards/premis/premis.xsd">
+  <mets:metsHdr CREATEDATE="2019-02-22T17:20:01.499+01:00">
+    <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <mets:name>DFG-Koordinierungsprojekt zur Weiterentwicklung von Verfahren der Optical
+          Character Recognition (OCR-D)</mets:name>
+      <mets:note>OCR-D</mets:note>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
+      <mets:name>ocrd-tesserocr-recognize v0.13.6 (tesseract 5.0.0-alpha-20201231)</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-IMG</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"segmentation_level": "region", "textequiv_level": "word", "find_tables": true, "model": "Fraktur_GT4HistOCR", "dpi": 0, "padding": 0, "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
+      <mets:name>ocrd-dinglehopper vNone</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-GT-SEG-LINE,OCR-D-OCR-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-DINGLE</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"metrics": true, "textequiv_level": "region"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="dmdSec_0001">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods>
+          <mods:location>
+            <mods:physicalLocation>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</mods:physicalLocation>
+            <mods:shelfLocator>SBB-PK, My 17725</mods:shelfLocator>
+            <mods:url>http://stabikat.de/DB=1/SET=12/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=645177016</mods:url>
+          </mods:location>
+          <mods:originInfo>
+            <mods:place>
+              <mods:placeTerm type="text">Frankfurt Leipzig</mods:placeTerm>
+            </mods:place>
+            <mods:dateIssued encoding="w3cdtf" keyDate="yes">1784</mods:dateIssued>
+            <mods:publisher>
+                     Weigel und Schneider
+                  </mods:publisher>
+          </mods:originInfo>
+          <mods:originInfo>
+            <mods:dateCaptured encoding="w3cdtf">2018-05-15T18:08:16Z</mods:dateCaptured>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:classification authority="DTA">Fachtext</mods:classification>
+          <mods:classification authority="DTA">Technik</mods:classification>
+          <mods:identifier type="urn">urn:nbn:de:kobv:b4-200905193728</mods:identifier>
+          <mods:identifier type="purl">http://www.deutschestextarchiv.de/luz_blitz_1784</mods:identifier>
+          <mods:identifier type="dtaid">16488</mods:identifier>
+          <mods:titleInfo>
+            <mods:title>Unterricht vom Blitz und den Blitz- oder Wetter-Ableitern</mods:title>
+            <mods:subTitle>zur Belehrung und Beruhigung sonderlich der Ungelehrten und des gemeinen Mannes</mods:subTitle>
+          </mods:titleInfo>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">deu</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title/>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:name type="personal">
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Luz</mods:namePart>
+            <mods:namePart type="given">Johann Friedrich</mods:namePart>
+            <mods:displayForm>Johann Friedrich Luz</mods:displayForm>
+          </mods:name>
+          <mods:physicalDescription>
+            <mods:extent>[5] Bl., 150 S. : 1 Kupfertaf.</mods:extent>
+          </mods:physicalDescription>
+          <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:accessCondition displayLabel="Access Status" type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2">open access</mods:accessCondition>
+          <mods:extension>
+            <zvdd:zvddWrap xmlns:zvdd="http://zvdd.gdz-cms.de/">
+              <zvdd:titleWord>Unterricht vom Blitz und den Blitz- oder Wetter-Ableitern zur Belehrung und Beruhigung sonderlich der Ungelehrten und des gemeinen Mannes</zvdd:titleWord>
+            </zvdd:zvddWrap>
+          </mods:extension>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDGT_0001">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="GT">
+      <mets:xmlData>
+        <gt:gt>
+          <gt:state prop="granularity/physical/document-related/word"/>
+          <gt:state prop="granularity/physical/document-related/text-line"/>
+          <gt:state prop="granularity/physical/document-related/region"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/typefaces"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/font-sizes"/>
+          <gt:state prop="data-attributes/language/mixed"/>
+          <gt:state prop="condition/production-related/document-faults/ink-from-facing"/>
+        </gt:gt>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDGT_0002">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="GT">
+      <mets:xmlData>
+        <gt:gt>
+          <gt:state prop="granularity/physical/document-related/word"/>
+          <gt:state prop="granularity/physical/document-related/text-line"/>
+          <gt:state prop="granularity/physical/document-related/region"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/typefaces"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/font-sizes"/>
+          <gt:state prop="data-attributes/language/mixed"/>
+          <gt:state prop="condition/production-related/document-faults/ink-from-facing"/>
+        </gt:gt>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDGT_0003">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="GT">
+      <mets:xmlData>
+        <gt:gt>
+          <gt:state prop="granularity/physical/document-related/word"/>
+          <gt:state prop="granularity/physical/document-related/text-line"/>
+          <gt:state prop="granularity/physical/document-related/region"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/typefaces"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/font-sizes"/>
+          <gt:state prop="data-attributes/language/mixed"/>
+          <gt:state prop="condition/production-related/document-faults/ink-from-facing"/>
+        </gt:gt>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDGT_0004">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="GT">
+      <mets:xmlData>
+        <gt:gt>
+          <gt:state prop="granularity/physical/document-related/word"/>
+          <gt:state prop="granularity/physical/document-related/text-line"/>
+          <gt:state prop="granularity/physical/document-related/region"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/typefaces"/>
+          <gt:state prop="data-attributes/document-related/visual/text/font/multi-font/font-sizes"/>
+          <gt:state prop="data-attributes/language/mixed"/>
+          <gt:state prop="condition/production-related/document-faults/ink-from-facing"/>
+        </gt:gt>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="amdSec_0001">
+    <mets:rightsMD ID="rights_0001">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <DV:rights>
+            <DV:owner>Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren für die
+                Optical-Character-Recognition OCR-D</DV:owner>
+            <DV:ownerLogo>http://ocr-d.de/sites/default/files/Header1-Text-gold_3.png</DV:ownerLogo>
+            <DV:ownerSiteURL>http://ocr-d.de/</DV:ownerSiteURL>
+            <DV:ownerContact>mailto:ocrd@bbaw.de</DV:ownerContact>
+          </DV:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:rightsMD ID="rights_0002">
+      <mets:mdWrap MDTYPE="PREMIS:RIGHTS">
+        <mets:xmlData>
+          <pre:rightsStatement>
+            <pre:rightsBasis>license</pre:rightsBasis>
+            <pre:licenseInformation>
+              <pre:licenseDocumentationIdentifier>
+                <pre:licenseDocumentationIdentifierValue>http://creativecommons.org/publicdomain/mark/1.0/</pre:licenseDocumentationIdentifierValue>
+              </pre:licenseDocumentationIdentifier>
+            </pre:licenseInformation>
+          </pre:rightsStatement>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="digiprovMD_0001">
+      <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <DV:links>
+            <DV:reference/>
+            <DV:presentation>http://www.deutschestextarchiv.de/luz_blitz_1784</DV:presentation>
+          </DV:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="OCR-D-GT-SEG-PAGE">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0001">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0001.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0002">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0002.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0003">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0003.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0004">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0004.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-GT-SEG-BLOCK">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0001">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0001.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0002">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0002.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0003">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0003.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0004">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0004.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-GT-SEG-LINE">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-LINE_0001">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-LINE/OCR-D-GT-SEG-LINE_0001.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-LINE_0002">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-LINE/OCR-D-GT-SEG-LINE_0002.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-LINE_0003">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-LINE/OCR-D-GT-SEG-LINE_0003.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-LINE_0004">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-GT-SEG-LINE/OCR-D-GT-SEG-LINE_0004.xml" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-IMG">
+      <mets:file MIMETYPE="image/tiff" ID="OCR-D-IMG_0001">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-IMG/OCR-D-IMG_0001.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/tiff" ID="OCR-D-IMG_0002">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-IMG/OCR-D-IMG_0002.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/tiff" ID="OCR-D-IMG_0003">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-IMG/OCR-D-IMG_0003.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/tiff" ID="OCR-D-IMG_0004">
+        <mets:FLocat LOCTYPE="OTHER" xlink:href="OCR-D-IMG/OCR-D-IMG_0004.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-OCR-TESS">
+      <mets:file ID="OCR-D-OCR-TESS_0001.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0001.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0001" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0001.xml"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0002.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0002.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0002" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0002.xml"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0003.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0003.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0003" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0003.xml"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0004.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0004.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="OCR-D-OCR-TESS_0004" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/OCR-D-OCR-TESS_0004.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="EVAL-DINGLE">
+      <mets:file ID="EVAL-DINGLE_0001.html" MIMETYPE="text/html">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0001.html"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0001.json" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0001.json"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0002.html" MIMETYPE="text/html">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0002.html"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0002.json" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0002.json"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0003.html" MIMETYPE="text/html">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0003.html"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0003.json" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0003.json"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0004.html" MIMETYPE="text/html">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0004.html"/>
+      </mets:file>
+      <mets:file ID="EVAL-DINGLE_0004.json" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-DINGLE/EVAL-DINGLE_0004.json"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div TYPE="Monograph" DMDID="dmdSec_0001" ADMID="amdSec_0001" ID="loc_0001">
+      <mets:div ID="loc_d1e420" TYPE="Chapter" LABEL=""/>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div TYPE="physSequence" ID="physroot">
+      <mets:div TYPE="page" ORDER="1" ID="phys_0001" DMDID="DMDGT_0001">
+        <mets:fptr FILEID="OCR-D-GT-SEG-PAGE_0001"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-BLOCK_0001"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-LINE_0001"/>
+        <mets:fptr FILEID="OCR-D-IMG_0001"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0001.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0001"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0001.html"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0001.json"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="2" ID="phys_0002" DMDID="DMDGT_0002">
+        <mets:fptr FILEID="OCR-D-GT-SEG-PAGE_0002"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-BLOCK_0002"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-LINE_0002"/>
+        <mets:fptr FILEID="OCR-D-IMG_0002"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0002.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0002"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0002.html"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0002.json"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="3" ID="phys_0003" DMDID="DMDGT_0003">
+        <mets:fptr FILEID="OCR-D-GT-SEG-PAGE_0003"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-BLOCK_0003"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-LINE_0003"/>
+        <mets:fptr FILEID="OCR-D-IMG_0003"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0003.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0003"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0003.html"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0003.json"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="4" ID="phys_0004" DMDID="DMDGT_0004">
+        <mets:fptr FILEID="OCR-D-GT-SEG-PAGE_0004"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-BLOCK_0004"/>
+        <mets:fptr FILEID="OCR-D-GT-SEG-LINE_0004"/>
+        <mets:fptr FILEID="OCR-D-IMG_0004"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0004.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESS_0004"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0004.html"/>
+        <mets:fptr FILEID="EVAL-DINGLE_0004.json"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xlink:from="loc_0001" xlink:to="phys_0000"/>
+    <mets:smLink xlink:from="loc_d1e420" xlink:to="phys_0000"/>
+    <mets:smLink xlink:from="loc_d1e420" xlink:to="phys_0001"/>
+    <mets:smLink xlink:from="loc_d1e420" xlink:to="phys_0002"/>
+    <mets:smLink xlink:from="loc_d1e420" xlink:to="phys_0003"/>
+  </mets:structLink>
+</mets:mets>

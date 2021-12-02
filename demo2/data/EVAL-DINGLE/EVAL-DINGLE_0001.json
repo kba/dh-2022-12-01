@@ -1,0 +1,10 @@
+{
+    "gt": "OCR-D-GT-SEG-LINE/OCR-D-GT-SEG-LINE_0001.xml",
+    "ocr": "OCR-D-OCR-TESS/OCR-D-OCR-TESS_0001.xml",
+
+    "cer": 0.16728624535315986,
+    "wer": 0.20512820512820512,
+
+    "n_characters": 269,
+    "n_words": 39
+}
