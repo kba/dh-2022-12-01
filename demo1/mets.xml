@@ -164,197 +164,197 @@
   <mets:fileSec>
     <mets:fileGrp USE="FULLTEXT">
       <mets:file ID="FILE_0001_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000001.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0001_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0002_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000002.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0002_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0003_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000003.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0003_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0004_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000004.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0004_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0005_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000005.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0005_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0006_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000006.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0006_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0007_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000007.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0007_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0008_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000008.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0008_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0009_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000009.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0009_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0010_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000010.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0010_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0011_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000011.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0011_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0012_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000012.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0012_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0013_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000013.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0013_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0014_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000014.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0014_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0015_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000015.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0015_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0016_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000016.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0016_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0017_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000017.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0017_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0018_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000018.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0018_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0019_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000019.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0019_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0020_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000020.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0020_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0021_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/ocrresolver/PPN680203753/00000021.xml"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0021_FULLTEXT" OTHERLOCTYPE="FILE"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="PRESENTATION">
       <mets:file ID="FILE_0001_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000001.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000001.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0002_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000002.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000002.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0003_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000003.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000003.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0004_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000004.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000004.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0005_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000005.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000005.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0006_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000006.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000006.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0007_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000007.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000007.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0008_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000008.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000008.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0009_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000009.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000009.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0010_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000010.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000010.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0011_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000011.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000011.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0012_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000012.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000012.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0013_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000013.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000013.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0014_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000014.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000014.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0015_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000015.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000015.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0016_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000016.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000016.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0017_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000017.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000017.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0018_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000018.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000018.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0019_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000019.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000019.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0020_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000020.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000020.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0021_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000021.tif"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000021.tif" OTHERLOCTYPE="FILE"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="THUMBS">
       <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000001.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0001_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000002.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0002_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000003.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0003_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000004.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0004_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0005_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000005.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0005_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0006_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000006.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0006_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0007_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000007.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0007_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0008_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000008.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0008_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0009_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000009.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0009_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0010_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000010.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0010_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0011_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000011.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0011_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0012_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000012.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0012_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0013_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000013.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0013_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0014_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000014.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0014_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0015_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000015.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0015_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0016_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000016.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0016_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0017_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000017.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0017_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0018_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000018.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0018_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0019_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000019.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0019_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0020_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000020.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0020_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
       <mets:file ID="FILE_0021_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN680203753/150/0/00000021.png"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0021_THUMBS.png" OTHERLOCTYPE="FILE"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="DEFAULT">
