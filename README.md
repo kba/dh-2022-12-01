@@ -63,9 +63,7 @@ ocrd resmgr download ocrd-calamari-recognize qurator-gt4histocr-1.0
 
 ```sh
 ocrd process \
-  "cis-ocropy-binarize -I DEFAULT -O OCR-D-BIN" \
-  "anybaseocr-crop -I OCR-D-BIN -O OCR-D-CROP" \
-  "skimage-binarize -I OCR-D-CROP -O OCR-D-BIN2 -P method li" \
+  "skimage-binarize -I DEFAULT -O OCR-D-BIN2 -P method li" \
   "skimage-denoise -I OCR-D-BIN2 -O OCR-D-BIN-DENOISE -P level-of-operation page" \
   "tesserocr-deskew -I OCR-D-BIN-DENOISE -O OCR-D-BIN-DENOISE-DESKEW -P operation_level page" \
   "cis-ocropy-segment -I OCR-D-BIN-DENOISE-DESKEW -O OCR-D-SEG -P level-of-operation page" \
@@ -90,11 +88,13 @@ cd demo2
 
 ### Laden wir uns ein Werk aus dem OCR-D-GT-Repo
 
-OCR-D-GT-Repo: https://ocr-d.de/gt-repo
+OCR-D-GT-Repo: http://ola-hd.ocr-d.de
+
+* Suchen nach `luz`
+* Quick Export
 
 ```sh
-curl -O https://ocr-d-repo.scc.kit.edu/api/v1/dataresources/dda89351-7596-46eb-9736-593a5e9593d3/data/luz_blitz_1784.ocrd.zip
-unzip luz_blitz_1784.ocrd.zip
+unzip quick-export.zip
 cd data
 ```
 
